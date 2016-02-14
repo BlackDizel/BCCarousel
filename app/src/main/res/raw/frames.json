@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "genre_id": 1,
+    "title": "comment",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  },
+  {
+    "id": 2,
+    "genre_id": 2,
+    "title": "comment",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  },
+  {
+    "id": 3,
+    "genre_id": 2,
+    "title": "comment",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  },
+  {
+    "id": 4,
+    "genre_id": 3,
+    "title": "comment",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  },
+  {
+    "id": 5,
+    "genre_id": 3,
+    "title": "comment",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  },
+  {
+    "id": 6,
+    "genre_id": 3,
+    "title": "comment",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  }
+]

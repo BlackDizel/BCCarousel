@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Comedy",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/1/5/2/kinopoisk.ru-Nothing-to-Lose-1528467.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Drama",
+    "imgUri": "http://media.senscritique.com/media/000006633053/960_nocrop/The_Fountain.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Romantic",
+    "imgUri": "http://st-im.kinopoisk.ru/im/kadr/2/4/9/kinopoisk.ru-What-Dreams-May-Come-2490124.jpg"
+  }
+]
