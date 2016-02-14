@@ -1,2 +1,13 @@
 <resources>
+    <dimen name="corner_radius">4dp</dimen>
+    <dimen name="genre_margin_horizontal">8dp</dimen>
+    <dimen name="genre_margin_vertical">16dp</dimen>
+    <dimen name="genre_item_margin">16dp</dimen>
+    <dimen name="genre_item_text_padding">8dp</dimen>
+    <dimen name="genre_item_content_padding">8dp</dimen>
+    <dimen name="corner_gold_radius">8dp</dimen>
+    <dimen name="corner_gold_stroke_width">2dp</dimen>
+    <dimen name="frame_text_bg_radius">56dp</dimen>
+    <dimen name="frame_text_padding">16dp</dimen>
+    <dimen name="frame_item_margin_horizontal">16dp</dimen>
 </resources>
