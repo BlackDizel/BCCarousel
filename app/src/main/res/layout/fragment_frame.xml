@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/ivFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="@dimen/corner_radius" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/frame_text_bg"
+        android:gravity="center"
+        android:lines="2"
+        android:padding="@dimen/frame_text_padding"
+        android:textColor="@color/white" />
+
+</FrameLayout>
