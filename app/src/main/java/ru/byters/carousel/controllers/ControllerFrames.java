@@ -8,6 +8,8 @@ import com.google.gson.reflect.TypeToken;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 import ru.byters.carousel.controllers.utils.JsonResourcesHelper;
 import ru.byters.carousel.models.Frame;
@@ -41,6 +43,12 @@ public class ControllerFrames {
         for (Frame f : data)
             if (f.getGenre_id() == genre_id)
                 cached_data.add(f);
+
+        Collections.sort(cached_data, new Comparator<Frame>() {
+            public int compare(Frame f1, Frame f2) {
+                return f1.getTitle().compareToIgnoreCase(f2.getTitle());
+            }
+        });
 
         return cached_data.size();
     }
