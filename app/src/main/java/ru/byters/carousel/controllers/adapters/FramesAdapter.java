@@ -3,15 +3,13 @@ package ru.byters.carousel.controllers.adapters;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.app.FragmentTransaction;
+import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.PagerAdapter;
-import android.view.ViewGroup;
 
 import ru.byters.carousel.controllers.Core;
 import ru.byters.carousel.ui.fragments.FragmentFrame;
 
-public class FramesAdapter extends FragmentPagerAdapter {
+public class FramesAdapter extends FragmentStatePagerAdapter {
 
     private static final int NO_VALUE = -1;
     Core controller;
