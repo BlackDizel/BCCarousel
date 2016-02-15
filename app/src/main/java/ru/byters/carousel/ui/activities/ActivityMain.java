@@ -59,6 +59,7 @@ public class ActivityMain
         CarouselAdapter adapter = new CarouselAdapter(getSupportFragmentManager(), (Core) getApplicationContext());
         viewPager.setAdapter(adapter);
         viewPager.setCurrentItem(adapter.getCount() / 2);
+        onPageSelected(adapter.getCount() / 2);
 
         viewPager.setPageTransformer(true, new ZoomTransformer(frames_num));
         viewPager.addOnPageChangeListener(this);
