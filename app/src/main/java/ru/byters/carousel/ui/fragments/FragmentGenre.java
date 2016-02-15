@@ -48,6 +48,7 @@ public class FragmentGenre
 
         v.setScaleX(ZoomTransformer.MIN_SCALE);
         v.setScaleY(ZoomTransformer.MIN_SCALE);
+        v.findViewById(R.id.vCorner).setAlpha(0);
 
         return v;
     }
